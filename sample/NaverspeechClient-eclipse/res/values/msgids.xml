@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- Messages IDs -->
+	<item type="id" name="partialResult"/>
+	<item type="id" name="finalResult"/>
+	<item type="id" name="endPointDetected"/>
+	<item type="id" name="clientReady"/>
+	<item type="id" name="clientInactive"/>
+	<item type="id" name="audioRecording"/>
+	<item type="id" name="recognitionError"/>
+</resources>
