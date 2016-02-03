@@ -1,11 +1,18 @@
 # **Naverspeech SDK for Android**
 
-Android용 네이버 음성인식 라이브러리
+> 본 저장소는 Android용 네이버 음성인식 라이브러리 및 예제 프로젝트를 포함하고 있습니다.
+
+자세한 내용은 (네이버개발자 음성인식 API 명세)[https://developers.naver.com/docs/labs/vrecog]를 참고하세요.
 
 
-Installation
-==
-- 상세한 내용은 [https://developers.naver.com/docs/labs/vrecog] 참고
+v.1.0.2
+-------------
+####updated
+1. SpeechRecognizer 클래스 생성자에서 SpeechRecognitionException 예외가 발생할 수 있습니다.
+2. Android 2.3.3부터 SDK를 사용할 수 있도록 수정했습니다.
+
+####fixed
+1. Fatal signal 11 (SIGSEGV) at 0xdeadbaad (code=1), thread 15107 (erspeech.client) 버그 수정
 
 
 License

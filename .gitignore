@@ -4,3 +4,10 @@ S-specific files
 ._*
 .Spotlight-V100
 .Trashes
+*.iml
+sample/NaverspeechClient-android-studio/.gradle/
+sample/NaverspeechClient-android-studio/.idea/
+sample/NaverspeechClient-android-studio/local.properties
+sample/NaverspeechClient-android-studio/app/build/
+sample/NaverspeechClient-android-studio/build/
+sample/NaverspeechClient-eclipse/bin/

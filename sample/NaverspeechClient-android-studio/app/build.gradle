@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
+    compileSdkVersion 10
     buildToolsVersion "22.0.0"
 
     defaultConfig {
@@ -18,5 +18,5 @@ android {
 }
 
 dependencies {
-    compile files('libs/Naverspeech-1.0.0.jar')
+    compile files('libs/Naverspeech-1.0.2.jar')
 }
