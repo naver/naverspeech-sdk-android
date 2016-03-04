@@ -18,5 +18,5 @@ android {
 }
 
 dependencies {
-    compile files('libs/Naverspeech-1.0.2.jar')
+    compile files('libs/Naverspeech-1.0.3.jar')
 }
