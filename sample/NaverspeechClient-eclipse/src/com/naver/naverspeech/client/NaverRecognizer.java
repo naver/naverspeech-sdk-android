@@ -1,5 +1,6 @@
 package com.naver.naverspeech.client;
 
+import com.naver.naverspeech.client.R;
 import com.naver.speech.clientapi.SpeechConfig;
 import com.naver.speech.clientapi.SpeechRecognitionException;
 import com.naver.speech.clientapi.SpeechRecognitionListener;
