@@ -5,10 +5,11 @@
 자세한 내용은 (네이버개발자 음성인식 API 명세)[https://developers.naver.com/docs/labs/vrecog]를 참고하세요.
 
 
-v.1.0.3
+v.1.0.4
 -------------
-####updated
-1. JNI 라이브러리에 armeabi 뿐만 아니라 armeabi-v7a 추가
+####fixed
+1. package 명이 어느 정도 길어질 경우 잘려 인증오류(70) 발생하는 문제 수정, package 명의 길이가 256bytes 이하면 문제 없음.
+2. eclipse에서 Javadoc을 볼 경우 한글이 깨지는 문제 수정.
 
 License
 ==
