@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Messages IDs -->
+    <item name="partialResult" type="id"/>
+    <item name="finalResult" type="id"/>
+    <item name="endPointDetected" type="id"/>
+    <item name="clientReady" type="id"/>
+    <item name="clientInactive" type="id"/>
+    <item name="audioRecording" type="id"/>
+    <item name="recognitionError" type="id"/>
+    <item name="getAuthorization" type="id"/>
+
+    <item name="endPointDetectTypeSelected" type="id"/>
+</resources>
