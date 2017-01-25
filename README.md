@@ -18,11 +18,14 @@ iOS 개발자분들을 위해 iOS 버전 openAPI를 새롭게 출시하였습니
   * Manual : 발성의 끝점을 사용자가 명시적으로 알립니다. 따라서 발성을 잠시 멈추어도 인식이 끝나지 않습니다. 이 방식을 이용하여 무전기의 push-to-talk과 유사한 동작을 구현할 수 있습니다.
   * Hybrid : 위의 Auto와 Manual 중 어떤 방식을 선택할 것인지는 빌드 타임에, 즉 코드상에서 개발자가 값을 넣어줌으로써 결정됩니다. 하지만 Hybrid 방식을 선택하면 이를 런타임에 결정할 수 있습니다. 가령, 버튼을 짧게 클릭하면 Auto 방식으로, 길게 누른 상태에서 발성하면 Manual 방식으로 다이나믹하게 결정하도록 구현할 수 있습니다.
 
-#### 3. 열악한 환경에서의 안정화
+#### 3. 중국어, 일본어 추가
+이번 업데이트에서 새롭게 중국어, 일본어를 추가하였습니다.
+
+#### 4. 열악한 환경에서의 안정화
 네트워크 환경이 열악할 경우에도 음성인식이 보다 안정적으로 동작하도록, 내부적으로 오디오 버퍼링을 비롯한 여러 안정화 로직을 추가했습니다.
 또한, 다양한 예외 상황에서 라이브러리가 안정적으로 동작하도록 내부적으로 많은 개선을 하였습니다. 그리고 IPv6 device에서 동작 가능하도록 수정했습니다.
 
-#### 4. Android 버전 openAPI 사용성 개선
+#### 5. Android 버전 openAPI 사용성 개선
 기존에는 libs 파일을 복사 & 붙여넣기하여 사용했지만, 이제부터는 android studio에서 gradle에 의존성을 추가하여 바로 SDK를 사용할 수 있도록 수정했습니다. 또한 사용성 개선을 위해 일부 메서드명과 형식을 변경하였습니다.
   * SpeechRecognizer constructor : SpeechConfig argument 제외
   * recognize : SpeechConfig argument 추가, return type 변경(→ boolean)
@@ -37,7 +40,7 @@ Usage
     jcenter()
   }
   dependencies {
-    compile 'com.naver.speech.clientapi:naverspeech-sdk-android-internal:1.1.0'
+    compile 'com.naver.speech.clientapi:naverspeech-sdk-android-internal:1.1.2'
   }
 ```
 **2.** proguard-rules.pro 파일에 아래의 구문을 추가해주세요. 애플리케이션이 보다 가볍고 안전해집니다.
