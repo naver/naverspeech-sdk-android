@@ -4,10 +4,14 @@
 
 자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
+v.1.1.3
+-------------
+### "이번 업데이트에서 새롭게 추가된 내용은 다음과 같습니다."
+#### 0. 지원 아키텍쳐 추가
+기존에 arm, arm-v7만 지원하던 점을 개선하여 모든 아키텍쳐에 호환되도록 수정하였습니다.
 
 v.1.1.0
 -------------
-### "이번 업데이트에서 새롭게 추가된 내용은 다음과 같습니다."
 #### 1. [iOS 버전 openAPI](https://github.com/naver/naverspeech-sdk-ios) 출시
 iOS 개발자분들을 위해 iOS 버전 openAPI를 새롭게 출시하였습니다.
 끝점 추출(Endpoint detection), 안정화 등 이번에 추가된 새 업데이트가 모두 적용된 버전입니다. 많은 사용 부탁드립니다.
@@ -40,7 +44,7 @@ Usage
     jcenter()
   }
   dependencies {
-    compile 'com.naver.speech.clientapi:naverspeech-sdk-android:1.1.2'
+    compile 'com.naver.speech.clientapi:naverspeech-sdk-android:1.1.3'
   }
 ```
 **2.** proguard-rules.pro 파일에 아래의 구문을 추가해주세요. 애플리케이션이 보다 가볍고 안전해집니다.
