@@ -4,10 +4,13 @@
 
 자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
+v.1.1.4
+-------
+#### 1. 종단간 암호화 기능 강화
+
 v.1.1.3
 -------------
-### "이번 업데이트에서 새롭게 추가된 내용은 다음과 같습니다."
-#### 0. 지원 아키텍쳐 추가
+#### 1. 지원 아키텍쳐 추가
 기존에 arm, arm-v7만 지원하던 점을 개선하여 모든 아키텍쳐에 호환되도록 수정하였습니다.
 
 v.1.1.0
