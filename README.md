@@ -4,6 +4,10 @@
 
 자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
+v.1.1.5
+-------
+#### 1. Android 4.3 (API 레벨 18) 이전 버전에서 발생하던 이슈 해결
+
 v.1.1.4
 -------
 #### 1. 종단간 암호화 기능 강화
