@@ -4,6 +4,10 @@
 
 자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
+v.1.1.6
+-------
+#### 1. 공공기관용 API 추가 
+
 v.1.1.5
 -------
 #### 1. Android 4.3 (API 레벨 18) 이전 버전에서 발생하던 이슈 해결
@@ -51,7 +55,7 @@ Usage
     jcenter()
   }
   dependencies {
-    compile 'com.naver.speech.clientapi:naverspeech-ncp-sdk-android:1.1.3'
+    compile 'com.naver.speech.clientapi:naverspeech-ncp-sdk-android:1.1.6'
   }
 ```
 **2.** proguard-rules.pro 파일에 아래의 구문을 추가해주세요. 애플리케이션이 보다 가볍고 안전해집니다.
