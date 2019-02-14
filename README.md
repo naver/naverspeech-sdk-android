@@ -2,7 +2,7 @@
 
 > 본 저장소는 Android용 네이버 음성인식 라이브러리 및 예제 프로젝트를 포함하고 있습니다.
 
-자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
+자세한 내용은 [네이버 클라우드 플랫폼 CSR SDK 명세](http://docs.ncloud.com/ko/naveropenapi_v3/speech/recognition-sdk.html) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
 v.1.1.6
 -------
@@ -66,7 +66,7 @@ Usage
 ```
 **3.** 아래와 같이 SpeechRecognitionListener를 상속(implements) 받아서 각 이벤트 발생 시 호출되는 콜백 메서드를 override하여 음성인식 기능을 구현합니다.
 
-**4.** 자세한 내용은 [네이버개발자 음성인식 API 명세](https://developers.naver.com/docs/labs/vrecog) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
+**4.** 자세한 내용은 [네이버 클라우드 플랫폼 CSR SDK 명세](http://docs.ncloud.com/ko/naveropenapi_v3/speech/recognition-sdk.html) 및 [Android API Document](http://naver.github.io/naverspeech-sdk-android/) 를 참고하세요.
 
 
 License
